@@ -93,30 +93,135 @@ width: 1100px;
     
 }
 
-#name{
+.name{
 
     font-size: 50px;
     font-weight: bold;
+    margin: 5px;
+    padding: 5px;
 }
 
-#details{
+.details{
 
     font-size: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin: 5px;
+    padding: 5px;
 }
 
-#button{
+.button{
 
     padding: 20px 40px;
     font-size: 18px;
     background-color: rgb(235, 41, 7);
 color: #ffffff;
 }
-#button:hover{
+.button:hover{
     color: rgb(0, 255, 85);
     cursor: pointer;
 
 }
 
 
+/* the end of Home */
+
+.about0{
+
+    text-align: center;
+    font-size: 70px;
+    padding-top: 100px;
+}
+.about1{
+    width: 400px;
+    height: 375px;
+   
+
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+/* the end of about section */
+
+.box1{
+width: 250px; height: 400px;
+box-shadow: 4px 4px 15px gray;
+background-color: black;
+color: #ffffff;
+
+
+}
+
+.icon{
+    padding: 2px;
+    padding-left: 30px;
+margin: 5px;
+    width: 70px;
+    height: 100px;
+}
+
+
+.button0{
+    
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: gray;
+color: #ffffff;
+
+
+}
+.button0:hover{
+    color: rgb(255, 94, 0);
+    cursor: pointer;
+
+}
+
+.boxh{
+
+padding: 2px;
+margin: 5px;
+
+}
+.boxp{
+    padding: 2px;
+    margin: 5px;
+    padding-bottom: 15px;
+    font-size: 20px;
+
+}
+.box{
+
+justify-content: space-around;
+text-align: center;
+    display: flex;
+}
+
+
+.about01{
+
+    color: #ffffff;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+
+}
+
+.services{
+    height: 100vh;
+    margin: auto;
+    background-image: url("/images/background.png"), linear-gradient(45deg,#131614,#02171f);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
