@@ -3,4 +3,74 @@
     padding: 0px;
 }
 
+.menu{
+
+    background-color: rgb(0, 0, 0);
+padding: 1px;
+margin: 2px;
+color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.logo1:hover{
+
+    cursor: pointer;
+}
+
+.logo1{
+
+    width: 125px; padding-right: 250px;
+    height: 90px;
+
+}
+
+
+
+.menus{
+
+display: flex;
+font-size: large;
+list-style: none;
+}
+
+
+#item:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+
+
+#item{
+
+    margin: 10px; padding-right: 15px;
+}
+
+
+#item1:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+#item1{
+
+    margin: 10px; padding-right: 15px;
+}
+
+#item2:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+
+#item2{
+
+    margin: 10px; padding-right: 15px;
+}
+
+
+
 
